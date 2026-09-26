@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Baignoire AI Architecture Blueprint",
+  "description": "Comprehensive 5-page enterprise AI system design, multi-agent architecture, and RAG knowledge engine for luxury handmade bathtubs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

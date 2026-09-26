@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  @media print {
+    body {
+      background: #ffffff !important;
+      color: #111827 !important;
+      font-size: 11pt !important;
+      line-height: 1.5 !important;
+    }
+    .no-print {
+      display: none !important;
+    }
+    .print-container {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .page-break {
+      page-break-before: always !important;
+      break-before: page !important;
+    }
+  }
+}
